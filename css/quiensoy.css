@@ -1,0 +1,124 @@
+#quiensoy{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Technique-for-Faster-Web-Development.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    display: table;
+    margin-top: 70px;
+ 
+    
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+.presentacion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 55%;  
+    width: 100%;
+    overflow: hidden;
+   
+}
+  
+.texto{
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 5px 0px black;
+    border-radius: 5px ;
+    justify-content: center;
+
+
+}
+  
+.texto h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+  
+.texto p{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+   
+.yo{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 5px 0px black;
+    border-radius: 5px;
+    position: relative;
+  
+} 
+  
+  
+.yo img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+  
+
+
+@media screen and (max-width:1000px){
+    #quiensoy{ 
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        
+     
+        
+    }
+    
+    .container{
+        height: 80%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+    .texto p{
+        font-size:20px;
+        margin-top: 10px;
+
+   
+  
+    }
+    .texto h1{
+        font-size: 30px;
+    }
+  
+    .presentacion{
+        height: 100%;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+  
+    .yo{
+        width: 50%;
+        height: 50%;
+        margin-top: 0;
+    }
+  
+}
+
+
+
+

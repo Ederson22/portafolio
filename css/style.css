@@ -1,0 +1,16 @@
+@import url(quiensoy.css);
+@import url(menu.css);
+@import url(main.css);
+@import url(conocimientos.css);
+@import url(footer.css);
+@import url(boton_arriba.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}

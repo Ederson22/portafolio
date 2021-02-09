@@ -1,0 +1,84 @@
+#conocimientos{
+    width: 100%;
+    height: 100vh;
+    background: rgb(5, 34, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lose{
+    margin-top: 20px;
+    width: 90%;
+    height: 80%;
+    
+
+}
+
+.conocimientos h3{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+ 
+.conocimientos-iconos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 80%;
+
+}
+
+.conocimientos-iconos div{
+    background: #1e1e26;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    flex-direction: column;
+
+}
+.conocimientos-iconos div p{
+    font-size: 20px;
+    color: white;
+}
+
+.conocimientos-iconos div i{
+    font-size: 100px;
+    color: rgb(226, 226, 26);
+}
+
+@media screen and (max-width:500px){
+
+    .conocimientos-iconos div i{
+       font-size: 70px;
+    }
+    .conocimientos{
+     
+        height: 70vh;
+    
+    }
+
+    .conocimientos-iconos{
+        height: 70%;
+    }
+
+}
+
+@media screen and (max-width:300px){
+
+    .conocimientos-iconos div i{
+       font-size: 50px;
+    }
+    .conocimientos-iconos div p{
+        font-size: 10px;
+    }
+}
