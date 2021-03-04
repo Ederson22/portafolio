@@ -42,6 +42,8 @@ main{
     background: #1e1e26;
     height: 100%;
     width: 100%;
+    
+  
 }
 
 .categorias img{
@@ -72,7 +74,12 @@ main{
     border-radius: 10px;
     font-size: 18px;    
 }
-
+.parrafo_twitter{
+ margin-bottom: 80px;
+}
+.parrafo_viajes{
+    margin-bottom: 40px;
+}
 .categorias a:hover{
     color: yellow;
 }
